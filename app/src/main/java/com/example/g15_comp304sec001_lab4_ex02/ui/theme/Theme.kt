@@ -3,11 +3,8 @@ package com.example.g15_comp304sec001_lab4_ex02.ui.theme
 import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.dynamicDarkColorScheme
@@ -15,7 +12,6 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
@@ -26,13 +22,13 @@ import androidx.compose.ui.unit.sp
 import androidx.core.view.WindowCompat
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Color(0xBCD4),
+    primary = Color(0x1800BCD4),
     secondary = Color(0xFF073954),
     tertiary = Color(0x27018786),
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Color(0xBCD4),
+    primary = Color(0x1800BCD4),
     secondary = Color(0xFF073954),
     tertiary = Color(0x26018786),
 
@@ -79,7 +75,7 @@ val CardBackgroundColor = Color.White
 fun G15_COMP304Sec001_Lab4_Ex02Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = true,
-    content: @Composable (PaddingValues) -> Unit
+    content: @Composable () -> Unit
 ) {
     val colorScheme = when {
         dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
@@ -95,16 +91,14 @@ fun G15_COMP304Sec001_Lab4_Ex02Theme(
         typography = Typography
     ) {
         val view = LocalView.current
+        // run as part of the composition, but don't produce UI themselves
         SideEffect {
             val window = (view.context as Activity).window
             window.statusBarColor = colorScheme.secondary.toArgb()
-            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
+            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme // adjust the status
         }
 
-        Scaffold(
-            containerColor = MaterialTheme.colorScheme.background,
-        ) { paddingValues ->
-            content(paddingValues)
-        }
+        // content of the app
+        content()
     }
 }
