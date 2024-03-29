@@ -14,6 +14,7 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -33,7 +34,6 @@ import com.example.g15_comp304sec001_lab4_ex02.data.Program
 import com.example.g15_comp304sec001_lab4_ex02.ui.theme.CardBackgroundColor
 import com.example.g15_comp304sec001_lab4_ex02.ui.theme.CourseNameTextStyle
 import com.example.g15_comp304sec001_lab4_ex02.ui.theme.DescriptionTextStyle
-import com.example.g15_comp304sec001_lab4_ex02.ui.theme.G15_COMP304Sec001_Lab4_Ex02Theme
 import com.example.g15_comp304sec001_lab4_ex02.ui.theme.ProgramTitleTextStyle
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -120,7 +120,7 @@ fun DefaultPreview() {
     val sampleCourses = listOf(Course("Cloud Machine Learning", "Description of Cloud Machine Learning"))
     val samplePrograms = listOf(Program("Artificial Intelligence", sampleCourses))
 
-    G15_COMP304Sec001_Lab4_Ex02Theme {
+    MaterialTheme {
         ProgramsLayer(programs = samplePrograms)
     }
 }

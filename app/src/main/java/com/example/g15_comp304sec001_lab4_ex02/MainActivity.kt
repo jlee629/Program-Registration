@@ -64,7 +64,7 @@ fun DefaultPreview() {
     val sampleCourses = listOf(Course("Cloud Machine Learning", "Description of Cloud Machine Learning"))
     val samplePrograms = listOf(Program("Artificial Intelligence", sampleCourses))
 
-    G15_COMP304Sec001_Lab4_Ex02Theme {
+    MaterialTheme {
         Column(modifier = Modifier.fillMaxSize()) {
             ProgramHeader(title = title)
             ProgramsLayer(programs = samplePrograms)
