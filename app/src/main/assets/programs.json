@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Artificial Intelligence",
+    "courses": [
+      {
+        "name": "Advanced Database Concepts",
+        "description": "This course is intended to expand the student’s knowledge of business databases using data RDBMS and NoSQL driven systems. The course introduces students to the steps required to install and configure a database server and development system. Then, it expands the students’ knowledge of SQL by introducing more complex syntax than that covered in the first database course. Topics covered include advanced SQL queries, PLSQL, advanced data and table manipulation commands, basic security, triggers, functions, procedures, and packages, NoSQL document management, CRUD operations and data queries, indexing and aggregation techniques. The course will include a project to develop the database back-end for a “commercial” web application."
+      },
+      {
+        "name": "Networking for Software Developers",
+        "description": "Learners in this course will gain hands-on experience by applying knowledge of network protocols and components to the development and maintenance of software applications. Coursework emphasizes network stacks, socket-based network applications, software-defined networks, and developing client applications that interface with various intelligent devices."
+      },
+      {
+        "name": "Supervised Learning",
+        "description": "In this course, students will be introduced to supervised learning techniques and algorithms. Coursework covers the following algorithms: linear regression, logistic regression, decision trees, bayesian learning, support vector machines, sequence learning, k-nearest neighbors, and ensemble techniques. The concepts of underfitting, overfitting, cross-validation, and kernel methods will be covered throughout the course. Students will practice building an end-to-end supervised learning project."
+      },
+      {
+        "name": "Data Structures and Algorithms",
+        "description": "Building on fundamentals of Object-Oriented programming, this course exposes the students to algorithms and data structures. Students will analyze, evaluate and apply appropriate data structures & algorithms for the implementation of a software system. Coursework emphasizes the classical data structures, basic algorithm design, common operations on data structures, and the use of mathematical techniques to analyze the efficiency of the various algorithms. The languages of instruction are Java and Python (optional)."
+      },
+      {
+        "name": "Software Testing and Quality Assurance",
+        "description": "This course explores the goals of quality assurance and quality control activities performed during the life cycle of a software product. It focuses on integrating test processes with agile software development methodologies. Practical exercises give experience of design, specification, execution of tests plus test automation using tools through a mixture of instructor-directed exercises and student research leading to knowledge sharing."
+      },
+      {
+        "name": "Advanced Business Communications",
+        "description": "ENGL-253 is a senior level English course that explores the written and oral communication tasks that people in accounting and related fields encounter at work. It is intended for students who have mastered basic essay-writing skills (COMM-170 level). Its emphasis is on the strategies and formats that lead to effective communication: writing the solution, packaging the solution, and presenting the solution. Writing formats studied include letters, memoranda and reports. Instruction and practice in informal and formal public speaking are also provided. Students are presented with problem-solving tasks that will yield a variety of \"products\": identifying problems, framing potential solutions, resolving problems, and presenting the results of their research in clear and effective ways."
+      }
+    ]
+  },
+  {
+    "name": "Software Engineering Technology",
+    "courses": [
+      {
+        "name": "Programming 3",
+        "description": "The goal of this course is to enable students, already proficient in OOP, to build robust and more complex, data-driven desktop applications using the .NET technologies. Coursework emphasizes advanced topics, such as generics, extension methods, linear data structures, delegates, asynchronous programming, parallel programming, advanced GUI, Entity Framework core, ML.NET framework, etc. The language of instruction is C#."
+      },
+      {
+        "name": "Networking for Software Developers",
+        "description": "Learners in this course will gain hands-on experience by applying knowledge of network protocols and components to the development and maintenance of software applications. Coursework emphasizes network stacks, socket-based network applications, software-defined networks, and developing client applications that interface with various intelligent devices."
+      },
+      {
+        "name": "Data Structures and Algorithms",
+        "description": "Building on fundamentals of Object-Oriented programming, this course exposes the students to algorithms and data structures. Students will analyze, evaluate and apply appropriate data structures & algorithms for the implementation of a software system. Coursework emphasizes the classical data structures, basic algorithm design, common operations on data structures, and the use of mathematical techniques to analyze the efficiency of the various algorithms. The languages of instruction are Java and Python (optional)."
+      },
+      {
+        "name": "Mobile Apps Development",
+        "description": "In this mobile apps course, students will gain hands-on experience in developing and deploying mobile applications on the Android platform. Coursework emphasizes how to create advanced Graphical User Interfaces (GUIs), handle events, access remote services, store and retrieve data on the device, display maps, and use other Android APIs. Android Studio will be used to create a variety of mobile applications."
+      },
+      {
+        "name": "Software Testing and Quality Assurance",
+        "description": "This course explores the goals of quality assurance and quality control activities performed during the life cycle of a software product. It focuses on integrating test processes with agile software development methodologies. Practical exercises give experience of design, specification, execution of tests plus test automation using tools through a mixture of instructor-directed exercises and student research leading to knowledge sharing."
+      },
+      {
+        "name": "Linear Algebra and Statistics",
+        "description": "This course contains topics in Linear Algebra and Statistics. Linear algebra topics include operations with matrices, inverses, determinants, and vectors. Statistics topics include descriptive statistics, probability distributions as well as inferential statistics including hypothesis testing. Students will also use software applications in solving relevant problems."
+      }
+    ]
+  },
+  {
+    "name": "Game Programming",
+    "courses": [
+      {
+        "name": "Programming 3",
+        "description": "The goal of this course is to enable students, already proficient in OOP, to build robust and more complex, data-driven desktop applications using the .NET technologies. Coursework emphasizes advanced topics, such as generics, extension methods, linear data structures, delegates, asynchronous programming, parallel programming, advanced GUI, Entity Framework core, ML.NET framework, etc. The language of instruction is C#."
+      },
+      {
+        "name": "Java Programming",
+        "description": "Building on fundamentals of Object-Oriented programming, this course covers Component-based Application Development and Database Connectivity using the Java programming language. Coursework emphasizes how to create complex GUI applications with Java programming language, interacting with the databases using JDBC, and Java collections framework."
+      },
+      {
+        "name": "Software Testing and Quality Assurance",
+        "description": "This course explores the goals of quality assurance and quality control activities performed during the life cycle of a software product. It focuses on integrating test processes with agile software development methodologies. Practical exercises give experience of design, specification, execution of tests plus test automation using tools through a mixture of instructor-directed exercises and student research leading to knowledge sharing."
+      },
+      {
+        "name": "Clinical Workflow and IT Solutions",
+        "description": "This course is a survey of fundamental concepts and activities on clinical workflow and information technology solutions as applied to health care and electronic health records. Topics include but are not limited to EHR systems, Management of information in healthcare organizations and change management in health care. The course also introduces students to several statistical analysis methods commonly used for health data. Students may select COMP-387 as a technical elective in applicable programs."
+      },
+      {
+        "name": "Advanced Business Communications",
+        "description": "ENGL-253 is a senior level English course that explores the written and oral communication tasks that people in accounting and related fields encounter at work. It is intended for students who have mastered basic essay-writing skills (COMM-170 level). Its emphasis is on the strategies and formats that lead to effective communication: writing the solution, packaging the solution, and presenting the solution. Writing formats studied include letters, memoranda and reports. Instruction and practice in informal and formal public speaking are also provided. Students are presented with problem-solving tasks that will yield a variety of \"products\": identifying problems, framing potential solutions, resolving problems, and presenting the results of their research in clear and effective ways."
+      },
+      {
+        "name": "Linear Algebra and Statistics",
+        "description": "This course contains topics in Linear Algebra and Statistics. Linear algebra topics include operations with matrices, inverses, determinants, and vectors. Statistics topics include descriptive statistics, probability distributions as well as inferential statistics including hypothesis testing. Students will also use software applications in solving relevant problems."
+      }
+    ]
+  },
+  {
+    "name": "Health Informatics Technology",
+    "courses": [
+      {
+        "name": "C++ for Game Development",
+        "description": "The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+      },
+      {
+        "name": "Data Structures and Algorithms",
+        "description": "Building on fundamentals of Object-Oriented programming, this course exposes the students to algorithms and data structures. Students will analyze, evaluate and apply appropriate data structures & algorithms for the implementation of a software system. Coursework emphasizes the classical data structures, basic algorithm design, common operations on data structures, and the use of mathematical techniques to analyze the efficiency of the various algorithms. The languages of instruction are Java and Python (optional)."
+      },
+      {
+        "name": "Software Testing and Quality Assurance",
+        "description": "This course explores the goals of quality assurance and quality control activities performed during the life cycle of a software product. It focuses on integrating test processes with agile software development methodologies. Practical exercises give experience of design, specification, execution of tests plus test automation using tools through a mixture of instructor-directed exercises and student research leading to knowledge sharing."
+      },
+      {
+        "name": "Web Game Programming",
+        "description": "This course will cover a basic understanding of the modern tools and development methodologies used for creating industry standard Web and Mobile Games. The course has a hands-on, programming and development approach and it uses a Commercial Game Engine. Concepts of game state, game logic, user input, Mesh Animation, primitive artificial intelligence will be taught via hands-on examples. The games built will cover a variety of 3D game genres and game mechanics that work well with Web and Mobile Games."
+      },
+      {
+        "name": "Advanced Business Communications",
+        "description": "ENGL-253 is a senior level English course that explores the written and oral communication tasks that people in accounting and related fields encounter at work. It is intended for students who have mastered basic essay-writing skills (COMM-170 level). Its emphasis is on the strategies and formats that lead to effective communication: writing the solution, packaging the solution, and presenting the solution. Writing formats studied include letters, memoranda and reports. Instruction and practice in informal and formal public speaking are also provided. Students are presented with problem-solving tasks that will yield a variety of \"products\": identifying problems, framing potential solutions, resolving problems, and presenting the results of their research in clear and effective ways."
+      },
+      {
+        "name": "Linear Algebra and Statistics",
+        "description": "This course contains topics in Linear Algebra and Statistics. Linear algebra topics include operations with matrices, inverses, determinants, and vectors. Statistics topics include descriptive statistics, probability distributions as well as inferential statistics including hypothesis testing. Students will also use software applications in solving relevant problems."
+      }
+    ]
+  }
+]
