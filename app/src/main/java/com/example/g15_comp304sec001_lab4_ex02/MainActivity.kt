@@ -41,6 +41,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun ProgramsUI(programsViewModel: ProgramsViewModel) {
 
+    val title = "CENTENNIAL COLLEGE PROGRAMS"
     val programs = remember { mutableStateListOf<Program>() }
 
     // load programs asynchronously when the composable enters the composition
@@ -49,7 +50,7 @@ fun ProgramsUI(programsViewModel: ProgramsViewModel) {
     }
 
     Column(modifier = Modifier.fillMaxSize()) {
-        ProgramHeader(title = "CENTENNIAL COLLEGE PROGRAMS")
+        ProgramHeader(title = title)
         ProgramsLayer(programs = programs)
         ProgramLogo()
     }
