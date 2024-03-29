@@ -10,9 +10,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.composed
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.g15_comp304sec001_lab4_ex02.ui.theme.G15_COMP304Sec001_Lab4_Ex02Theme
 import com.example.g15_comp304sec001_lab4_ex02.ui.theme.MyThemeTypography
 
 @Composable
@@ -31,11 +34,19 @@ fun ProgramHeader(title: String) {
         )
     }
 }
+fun Modifier.headerModifier(): Modifier = composed {
+    this
+        .fillMaxWidth()
+        .padding(vertical = 20.dp)
+        .clip(RoundedCornerShape(10.dp))
+        .background(MaterialTheme.colorScheme.secondary)
+        .padding(20.dp)
+}
 
+@Preview(showBackground = true)
 @Composable
-fun Modifier.headerModifier(): Modifier = this
-    .fillMaxWidth()
-    .padding(vertical = 20.dp)
-    .clip(RoundedCornerShape(10.dp))
-    .background(MaterialTheme.colorScheme.secondary)
-    .padding(20.dp)
+fun ProgramHeaderPreview() {
+    G15_COMP304Sec001_Lab4_Ex02Theme {
+        ProgramHeader(title = "CENTENNIAL COLLEGE PROGRAMS")
+    }
+}

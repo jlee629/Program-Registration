@@ -17,6 +17,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.g15_comp304sec001_lab4_ex02.composable.ProgramHeader
 import com.example.g15_comp304sec001_lab4_ex02.composable.ProgramLogo
 import com.example.g15_comp304sec001_lab4_ex02.composable.ProgramsLayer
+import com.example.g15_comp304sec001_lab4_ex02.data.Course
 import com.example.g15_comp304sec001_lab4_ex02.data.Program
 import com.example.g15_comp304sec001_lab4_ex02.ui.theme.G15_COMP304Sec001_Lab4_Ex02Theme
 import com.example.g15_comp304sec001_lab4_ex02.viewmodel.ProgramsViewModel
@@ -56,12 +57,19 @@ fun ProgramsUI(programsViewModel: ProgramsViewModel) {
     }
 }
 
-
-
-
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    MaterialTheme {
+    val title = "CENTENNIAL COLLEGE PROGRAMS"
+    val sampleCourses = listOf(Course("Cloud Machine Learning", "Description of Cloud Machine Learning"))
+    val samplePrograms = listOf(Program("Artificial Intelligence", sampleCourses))
+
+    G15_COMP304Sec001_Lab4_Ex02Theme {
+        Column(modifier = Modifier.fillMaxSize()) {
+            ProgramHeader(title = title)
+            ProgramsLayer(programs = samplePrograms)
+            ProgramLogo()
+        }
     }
 }
+
